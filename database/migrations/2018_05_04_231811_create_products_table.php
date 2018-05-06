@@ -19,12 +19,7 @@ class CreateProductsTable extends Migration
             $table->text('detail');
             $table->integer('price');
             $table->integer('stock');
-            $table->integer('descount');
-
-
-
-
-
+            $table->integer('discount');
             $table->timestamps();
         });
     }
