@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a901e6bb-56ba-4f94-83e7-941fe5033730" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/eapi.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/ReviewFactory.php" afterPath="$PROJECT_DIR$/database/factories/ReviewFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_05_04_231811_create_products_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_05_04_231811_create_products_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/Product.php" afterPath="$PROJECT_DIR$/app/Model/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/Review.php" afterPath="$PROJECT_DIR$/app/Model/Review.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eapi.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eapi.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/eapi.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2308">
@@ -93,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -106,8 +102,8 @@
       <file leaf-file-name="Review.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Model/Review.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -144,6 +140,8 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_05_04_231811_create_products_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/factories/ReviewFactory.php" />
+        <option value="$PROJECT_DIR$/app/Model/Review.php" />
+        <option value="$PROJECT_DIR$/app/Model/Product.php" />
       </list>
     </option>
   </component>
@@ -336,12 +334,12 @@
       <option name="presentableId" value="Default" />
       <updated>1525461902946</updated>
       <workItem from="1525461905750" duration="693000" />
-      <workItem from="1525473769902" duration="11862000" />
+      <workItem from="1525473769902" duration="12622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12555000" />
+    <option name="totallyTimeSpent" value="13315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -435,22 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/Review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -507,6 +489,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2308">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
