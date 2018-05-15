@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a901e6bb-56ba-4f94-83e7-941fe5033730" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,13 +80,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Handler.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Handler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="930">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
-                <element signature="e#34#48#0#PHP" expanded="true" />
+                <element signature="e#34#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionTrait.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="14" lean-forward="false" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+              <folding>
+                <element signature="e#33#98#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,16 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/ProductFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -156,6 +160,7 @@
         <option value="$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php" />
       </list>
     </option>
   </component>
@@ -373,12 +378,12 @@
       <updated>1525461902946</updated>
       <workItem from="1525461905750" duration="693000" />
       <workItem from="1525473769902" duration="21788000" />
-      <workItem from="1526005718378" duration="12368000" />
+      <workItem from="1526005718378" duration="14604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34849000" />
+    <option name="totallyTimeSpent" value="37085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -637,10 +642,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="930">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <element signature="e#34#48#0#PHP" expanded="true" />
+            <element signature="e#34#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="14" lean-forward="false" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding>
+            <element signature="e#33#98#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
